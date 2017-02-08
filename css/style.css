@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  font-family: Orbitron;
+  background-color: dimgray;
+}
+#timer {
+  margin: 50px auto;
+  width: 55%;
+  max-height: 1000px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px;
+}
+#first-timer {
+  padding: 30px;
+}
+#second-timer {
+  padding: 30px;
+}
+h2 {
+  display: inline;
+}
+.newclass {
+  border: 1px solid blue;
+}
+.newclass2 {
+  border: 1px solid blue;
+}
+#progress-bar1 {
+  position: relative;
+  background-color: gray;
+  height: 35px;
+  width: 95%;
+  margin-top: 10px;
+  margin: 10px auto;
+}
+#progress-bar2 {
+  position: relative;
+  background-color: gray;
+  height: 35px;
+  width: 95%;
+  margin-top: 10px;
+  margin: 10px auto;
+}
+#inner1 {
+  position: absolute;
+  background-color: green;
+  width: 100%;
+  height: 35px;
+}
+#inner2 {
+  position: absolute;
+  background-color: green;
+  width: 100%;
+  height: 35px;
+}
+.control {
+  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 2px;
+}
+.num1, .num2 {
+  width: 60px;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+p {
+  margin: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  #timer {
+    width: 90%;
+  }
+}
