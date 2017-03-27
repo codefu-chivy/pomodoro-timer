@@ -26,15 +26,8 @@ h2 {
 .newclass2 {
   border: 1px solid blue;
 }
-#progress-bar1 {
-  position: relative;
-  background-color: gray;
-  height: 35px;
-  width: 95%;
-  margin-top: 10px;
-  margin: 10px auto;
-}
-#progress-bar2 {
+#progress-bar1, #progress-bar2 {
+  display: none;
   position: relative;
   background-color: gray;
   height: 35px;
@@ -65,6 +58,9 @@ h2 {
   height: 50px;
   font-size: 20px;
   margin-bottom: 5px;
+}
+#set-time1, #set-time2 {
+  display: none;
 }
 p {
   margin: 60px;
