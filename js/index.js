@@ -1,7 +1,3 @@
-$("#progress-bar1").hide();
-$("#progress-bar2").hide();
-$("#set-time1").hide();
-$("#set-time2").hide();
 $(function() {
   //Store button content
   var btnStr1 = "25";
